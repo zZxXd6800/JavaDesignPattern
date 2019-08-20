@@ -16,15 +16,15 @@ public class SingleResponsibility3 {
  * 交通工具类
  */
 class Vehicle3 {
-    public void runRoad(String vehicle) {
+    void runRoad(String vehicle) {
         System.out.println(vehicle + " run on the road.");
     }
 
-    public void runAir(String vehicle) {
+    void runAir(String vehicle) {
         System.out.println(vehicle + " run in the air.");
     }
 
-    public void runWater(String vehicle) {
+    void runWater(String vehicle) {
         System.out.println(vehicle + " run on the water.");
     }
 }

@@ -20,7 +20,7 @@ public class SingleResponsibility2 {
  * 陆上交通工具类
  */
 class RoadVehicle {
-    public void run(String vehicle) {
+    void run(String vehicle) {
         System.out.println(vehicle + " run on the road.");
     }
 }
@@ -29,7 +29,7 @@ class RoadVehicle {
  * 空中交通工具类
  */
 class AirVehicle {
-    public void run(String vehicle) {
+    void run(String vehicle) {
         System.out.println(vehicle + " run in the air.");
     }
 }
@@ -38,7 +38,7 @@ class AirVehicle {
  * 水上交通工具类
  */
 class WaterVehicle {
-    public void run(String vehicle) {
+    void run(String vehicle) {
         System.out.println(vehicle + " run on the water.");
     }
 }

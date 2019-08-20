@@ -88,7 +88,7 @@ class D1 implements Interface {
 }
 
 /**
- * A类通过接口Interface1依赖（使用）B类，但是只会用到1、2、3方法
+ * A类通过接口Interface1依赖B类，但是只会用到1、2、3方法
  */
 class A1 {
     public void depend1(Interface i) {
@@ -105,7 +105,7 @@ class A1 {
 }
 
 /**
- * C类通过接口Interface1依赖（使用）D类，但是只会用到1、4、5方法
+ * C类通过接口Interface1依赖D类，但是只会用到1、4、5方法
  */
 class C1 {
     public void depend1(Interface i) {

@@ -79,7 +79,7 @@ class D2 implements Interface1, Interface3 {
 }
 
 /**
- * A类通过接口Interface1和Interface2依赖（使用）B类
+ * A类通过接口Interface1和Interface2依赖B类
  */
 class A2 {
     public void depend1(Interface1 i) {
@@ -96,7 +96,7 @@ class A2 {
 }
 
 /**
- * C类通过接口Interface1和Interface3依赖（使用）D类
+ * C类通过接口Interface1和Interface3依赖D类
  */
 class C2 {
     public void depend1(Interface1 i) {
