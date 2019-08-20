@@ -16,7 +16,7 @@ public class SingleResponsibility1 {
  * 交通工具类
  */
 class Vehicle1 {
-    void run(String vehicle) {
+    public void run(String vehicle) {
         System.out.println(vehicle + " run on the road.");
     }
 }
