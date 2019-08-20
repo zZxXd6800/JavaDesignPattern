@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be65531-5422-4dfd-a908-9333f76918a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p1_single_responsibility/SingleResponsibility1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p1_single_responsibility/SingleResponsibility2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p1_single_responsibility/SingleResponsibility3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/ClassDiagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/ByConstructionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/ByInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/BySetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p4_liskov_substitution/LiskovSubstitution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p4_liskov_substitution/LiskovSubstitution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p5_open_close/OpenClose1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p5_open_close/OpenClose2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p6_demeter/Demeter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_design_principles/p6_demeter/Demeter2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDesignPattern/day1_design_principles/DesignPrinciples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDesignPattern/day1_design_principles/DesignPrinciples.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day1_design_principles/DesignPrinciples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1_design_principles/DesignPrinciples.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,94 +27,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day1_design_principles/DesignPrinciples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="698">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation1.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day1_design_principles/ClassDiagram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2202">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1269#1270#0" expanded="true" />
-                <element signature="e#1330#1331#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
-                <element signature="e#1437#1438#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1520#1521#0" expanded="true" />
-                <element signature="e#1561#1562#0" expanded="true" />
-                <element signature="e#1591#1592#0" expanded="true" />
-                <element signature="e#1632#1633#0" expanded="true" />
-                <element signature="e#1662#1663#0" expanded="true" />
-                <element signature="e#1818#1819#0" expanded="true" />
-                <element signature="e#1848#1849#0" expanded="true" />
-                <element signature="e#1889#1890#0" expanded="true" />
-                <element signature="e#1919#1920#0" expanded="true" />
-                <element signature="e#1960#1961#0" expanded="true" />
-                <element signature="e#1990#1991#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1977">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-              <folding>
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1253#1254#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-                <element signature="e#1323#1324#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1496#1497#0" expanded="true" />
-                <element signature="e#1526#1527#0" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-                <element signature="e#1666#1667#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -118,6 +57,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2</find>
+      <find>1</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,7 +77,21 @@
         <option value="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/Segregation2.java" />
         <option value="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation1.java" />
         <option value="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation2.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion1.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/ByInterface.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/BySetter.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/ByConstructionMethod.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion2.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p4_liskov_substitution/LiskovSubstitution1.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p4_liskov_substitution/LiskovSubstitution2.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p4_open_close/OpenClose1.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p4_open_close/OpenClose2.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p5_demeter/Demeter1.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p6_demeter/Demeter1.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/p6_demeter/Demeter2.java" />
         <option value="$PROJECT_DIR$/src/day1_design_principles/DesignPrinciples.java" />
+        <option value="$PROJECT_DIR$/src/day1_design_principles/ClassDiagram.java" />
       </list>
     </option>
   </component>
@@ -219,29 +178,6 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="day1_design_principles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="day1_design_principles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="p2_interface_segregation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="day1_design_principles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="p2_interface_segregation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="InterfaceSegregation1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="day1_design_principles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="p2_interface_segregation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="InterfaceSegregation2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -276,6 +212,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -293,13 +233,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterfaceSegregation2">
-    <configuration name="InterfaceSegregation1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p2_interface_segregation.InterfaceSegregation1" />
+  <component name="RunManager" selected="Application.Demeter2">
+    <configuration name="Demeter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p6_demeter.Demeter1" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1_design_principles.p2_interface_segregation.*" />
+          <option name="PATTERN" value="day1_design_principles.p6_demeter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceSegregation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p2_interface_segregation.InterfaceSegregation2" />
+    <configuration name="Demeter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p6_demeter.Demeter2" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1_design_principles.p2_interface_segregation.*" />
+          <option name="PATTERN" value="day1_design_principles.p6_demeter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Segregation1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p2_interface_segregation.Segregation1" />
+    <configuration name="LiskovSubstitution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p4_liskov_substitution.LiskovSubstitution2" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1_design_principles.p2_interface_segregation.*" />
+          <option name="PATTERN" value="day1_design_principles.p4_liskov_substitution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Segregation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p2_interface_segregation.Segregation2" />
+    <configuration name="OpenClose1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p5_open_close.OpenClose1" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1_design_principles.p2_interface_segregation.*" />
+          <option name="PATTERN" value="day1_design_principles.p5_open_close.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,12 +286,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleResponsibility3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p1_single_responsibility.SingleResponsibility3" />
+    <configuration name="OpenClose2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p5_open_close.OpenClose2" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1_design_principles.p1_single_responsibility.*" />
+          <option name="PATTERN" value="day1_design_principles.p5_open_close.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterfaceSegregation2" />
-        <item itemvalue="Application.InterfaceSegregation1" />
-        <item itemvalue="Application.Segregation2" />
-        <item itemvalue="Application.Segregation1" />
-        <item itemvalue="Application.SingleResponsibility3" />
+        <item itemvalue="Application.Demeter2" />
+        <item itemvalue="Application.Demeter1" />
+        <item itemvalue="Application.OpenClose2" />
+        <item itemvalue="Application.OpenClose1" />
+        <item itemvalue="Application.LiskovSubstitution2" />
       </list>
     </recent_temporary>
   </component>
@@ -386,35 +326,35 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7717149" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="6" />
+      <window_info anchor="right" id="Flutter Outline" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -459,84 +399,208 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2202">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="625">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/by_interface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1889#1890#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1960#1961#0" expanded="true" />
-            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation2.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/BySetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1977">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/ByConstructionMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/ByInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p4_liskov_substitution/LiskovSubstitution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p4_liskov_substitution/LiskovSubstitution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p5_open_close.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p5_open_close/OpenClose2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
             <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1323#1324#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p5_open_close/OpenClose1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p6_demeter/Demeter1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p6_demeter/Demeter2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day1_design_principles/DesignPrinciples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="698">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/ClassDiagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
