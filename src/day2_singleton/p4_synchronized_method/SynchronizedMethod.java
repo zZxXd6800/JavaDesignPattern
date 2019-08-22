@@ -1,11 +1,12 @@
-package day2_singleton.p3_thread_unsafe;
+package day2_singleton.p4_synchronized_method;
 
 /**
- * 懒汉式1线程不安全，在实际开发中不能用这种方式
- * 优点：起到了懒加载的效果，但只能在单线程下使用
- * 缺点：在多线程下，如果一个线程进入if (instance == null)判断语句块然后另一个线程开始执行，这时就会产生多个实例
+ * 懒汉式2同步方法，线程安全，在实际开发中效率太低，不推荐使用
+ * 优点：解决了线程安全问题
+ * 缺点：效率太低，每个线程在执行getInstance方法获取实例时都需要同步，
+ *      而实例化的代码其实只用执行一次，后面想获取示例时直接return就行了
  */
-public class ThreadUnsafe {
+public class SynchronizedMethod {
     public static void main(String[] args) {
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
@@ -25,8 +26,9 @@ class Singleton {
 
     /**
      * 提供一个静态的公有方法，当调用到该方法时才去创建instance
+     * 加入synchronized关键字解决线程安全问题
      */
-    public static Singleton getInstance() {
+    public static synchronized Singleton getInstance() {
         if (instance == null) {
             instance = new Singleton();
         }

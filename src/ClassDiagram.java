@@ -1,5 +1,3 @@
-package day1_design_principles;
-
 /**
  * UML（Unified Modeling Language，统一建模语言）类图：类、接口、继承、实现、依赖、关联、聚合
  * 用于描述系统中类（对象）本身的组成和类（对象）之间的各种静态关系

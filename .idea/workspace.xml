@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be65531-5422-4dfd-a908-9333f76918a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/day2_singleton/p4_synchronized_method/SynchronizedMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2_singleton/p5_synchronized_block/SynchronizedBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2_singleton/p6_double_check/DoubleCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2_singleton/p7_static_inner_class/StaticInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2_singleton/p8_enumeration/Enumeration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1_design_principles/ClassDiagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1_design_principles/ClassDiagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassDiagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassDiagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2_singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2_singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2_singleton/p1_static_constant/StaticConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2_singleton/p1_static_constant/StaticConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2_singleton/p2_static_block/StaticBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2_singleton/p2_static_block/StaticBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,19 +28,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day1_design_principles/ClassDiagram.java">
+        <entry file="file://$PROJECT_DIR$/src/day2_singleton/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="525">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/day1_design_principles/DesignPrinciples.java">
+        <entry file="file://$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="398">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -78,6 +88,16 @@
         <option value="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation2.java" />
         <option value="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation1.java" />
         <option value="$PROJECT_DIR$/src/day1_design_principles/ClassDiagram.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern.java" />
+        <option value="$PROJECT_DIR$/src/day2_singleton/p1_static_constant/StaticConstant.java" />
+        <option value="$PROJECT_DIR$/src/day2_singleton/p2_static_block/StaticBlock.java" />
+        <option value="$PROJECT_DIR$/src/day2_singleton/p5_synchronized_block/SynchronizedBlock.java" />
+        <option value="$PROJECT_DIR$/src/day2_singleton/p6_double_check/DoubleCheck.java" />
+        <option value="$PROJECT_DIR$/src/day2_singleton/p7_static_inner_class/StaticInnerClass.java" />
+        <option value="$PROJECT_DIR$/src/day2_singleton/p8_enumeration/Enumeration.java" />
+        <option value="$PROJECT_DIR$/src/day2_singleton/p4_synchronized_method/SynchronizedMethod.java" />
+        <option value="$PROJECT_DIR$/src/day2_singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java" />
       </list>
     </option>
   </component>
@@ -95,55 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
-          <expand>
-            <path>
-              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="day1_design_principles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="day1_design_principles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="day1_design_principles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="p1_single_responsibility" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -195,6 +166,55 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day2_singleton" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day1_design_principles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day1_design_principles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="p1_single_responsibility" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,13 +239,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demeter2">
-    <configuration name="Demeter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p6_demeter.Demeter1" />
+  <component name="RunManager" selected="Application.Enumeration">
+    <configuration name="DoubleCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2_singleton.p6_double_check.DoubleCheck" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1_design_principles.p6_demeter.*" />
+          <option name="PATTERN" value="day2_singleton.p6_double_check.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demeter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p6_demeter.Demeter2" />
+    <configuration name="Enumeration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2_singleton.p8_enumeration.Enumeration" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1_design_principles.p6_demeter.*" />
+          <option name="PATTERN" value="day2_singleton.p8_enumeration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiskovSubstitution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p4_liskov_substitution.LiskovSubstitution2" />
+    <configuration name="StaticInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2_singleton.p7_static_inner_class.StaticInnerClass" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1_design_principles.p4_liskov_substitution.*" />
+          <option name="PATTERN" value="day2_singleton.p7_static_inner_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenClose1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p5_open_close.OpenClose1" />
+    <configuration name="SynchronizedBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2_singleton.p5_synchronized_block.SynchronizedBlock" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1_design_principles.p5_open_close.*" />
+          <option name="PATTERN" value="day2_singleton.p5_synchronized_block.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenClose2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1_design_principles.p5_open_close.OpenClose2" />
+    <configuration name="SynchronizedMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2_singleton.p4_synchronized_method.SynchronizedMethod" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1_design_principles.p5_open_close.*" />
+          <option name="PATTERN" value="day2_singleton.p4_synchronized_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,11 +307,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demeter2" />
-        <item itemvalue="Application.Demeter1" />
-        <item itemvalue="Application.OpenClose2" />
-        <item itemvalue="Application.OpenClose1" />
-        <item itemvalue="Application.LiskovSubstitution2" />
+        <item itemvalue="Application.Enumeration" />
+        <item itemvalue="Application.StaticInnerClass" />
+        <item itemvalue="Application.DoubleCheck" />
+        <item itemvalue="Application.SynchronizedBlock" />
+        <item itemvalue="Application.SynchronizedMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +332,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,7 +341,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7717149" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4844098" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,7 +350,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -342,10 +362,41 @@
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4844098" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32962137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="6" />
+      <window_info anchor="right" id="Flutter Outline" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/by_interface.java" />
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion1.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/DependencyInversion1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
@@ -366,7 +417,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/BySetter.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/transitive_dependency/BySetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
@@ -381,36 +432,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/ByConstructionMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion2.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/DependencyInversion2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/ByInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/transitive_dependency/ByInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p4_liskov_substitution/LiskovSubstitution1.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p4_liskov_substitution/LiskovSubstitution1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
@@ -425,7 +461,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p4_liskov_substitution/LiskovSubstitution2.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p4_liskov_substitution/LiskovSubstitution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
@@ -443,7 +479,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p5_open_close.java" />
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p5_open_close/OpenClose2.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p5_open_close/OpenClose2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
@@ -466,14 +502,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p5_open_close/OpenClose1.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p5_open_close/OpenClose1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p6_demeter/Demeter1.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p6_demeter/Demeter1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
@@ -491,7 +527,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p6_demeter/Demeter2.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p6_demeter/Demeter2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
           <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
@@ -509,7 +545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p1_single_responsibility/SingleResponsibility3.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p1_single_responsibility/SingleResponsibility3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="10" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
@@ -524,28 +560,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p1_single_responsibility/SingleResponsibility2.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p1_single_responsibility/SingleResponsibility2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="31" column="10" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p1_single_responsibility/SingleResponsibility1.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p1_single_responsibility/SingleResponsibility1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation1.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p2_interface_segregation/InterfaceSegregation1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation2.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p2_interface_segregation/InterfaceSegregation2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
@@ -578,17 +614,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/ClassDiagram.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/DesignPrinciples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="900">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/DesignPrinciples.java">
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/transitive_dependency/ByConstructionMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="75">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassDiagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p6_double_check/DoubleCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p5_synchronized_block/SynchronizedBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p1_static_constant/StaticConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p2_static_block/StaticBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p4_synchronized_method/SynchronizedMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p8_enumeration/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p7_static_inner_class/StaticInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
