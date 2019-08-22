@@ -1,4 +1,4 @@
-package day1_design_principles.p3_dependency_inversion;
+package day1_design_principle.p3_dependency_inversion;
 
 /**
  * 引入一个抽象接口IReceiver表示接受者，让Person类依赖IReceiver接口，Email、WeChat、Message实现IReceiver接口，此时符合依赖倒置原则

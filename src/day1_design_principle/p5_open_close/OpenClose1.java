@@ -1,4 +1,4 @@
-package day1_design_principles.p5_open_close;
+package day1_design_principle.p5_open_close;
 
 public class OpenClose1 {
     public static void main(String[] args) {

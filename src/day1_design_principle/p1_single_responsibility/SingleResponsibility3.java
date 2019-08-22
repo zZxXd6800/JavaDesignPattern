@@ -1,4 +1,4 @@
-package day1_design_principles.p1_single_responsibility;
+package day1_design_principle.p1_single_responsibility;
 
 /**
  * 方式3仅增加新的方法，在方法级别遵守单一职责原则

@@ -1,4 +1,4 @@
-package day1_design_principles.p1_single_responsibility;
+package day1_design_principle.p1_single_responsibility;
 
 /**
  * 在方式1中违反了单一职责原则，应该根据交通工具运行方式的不同，将交通工具类分解为不同的类

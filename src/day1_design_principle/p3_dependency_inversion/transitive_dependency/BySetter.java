@@ -1,4 +1,4 @@
-package day1_design_principles.p3_dependency_inversion.transitive_dependency;
+package day1_design_principle.p3_dependency_inversion.transitive_dependency;
 
 /**
  * 通过Setter传递依赖

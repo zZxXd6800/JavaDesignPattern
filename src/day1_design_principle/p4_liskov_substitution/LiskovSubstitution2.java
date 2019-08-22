@@ -1,4 +1,4 @@
-package day1_design_principles.p4_liskov_substitution;
+package day1_design_principle.p4_liskov_substitution;
 
 public class LiskovSubstitution2 {
     public static void main(String[] args) {

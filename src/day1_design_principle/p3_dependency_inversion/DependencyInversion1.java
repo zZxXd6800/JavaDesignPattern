@@ -1,4 +1,4 @@
-package day1_design_principles.p3_dependency_inversion;
+package day1_design_principle.p3_dependency_inversion;
 
 /**
  * 方式1比较简单，但如果还需要接受WeChat，Message等信息就需要增加新类，同时Person类也要增加新的接受方法

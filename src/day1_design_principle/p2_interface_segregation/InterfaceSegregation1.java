@@ -1,4 +1,4 @@
-package day1_design_principles.p2_interface_segregation;
+package day1_design_principle.p2_interface_segregation;
 
 /**
  * 类A通过接口Interface依赖类B，类C通过接口Interface依赖类D，

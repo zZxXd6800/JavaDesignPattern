@@ -1,4 +1,4 @@
-package day1_design_principles;
+package day1_design_principle;
 
 /**
  * 设计模式的七大原则：

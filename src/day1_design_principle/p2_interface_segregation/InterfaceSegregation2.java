@@ -1,4 +1,4 @@
-package day1_design_principles.p2_interface_segregation;
+package day1_design_principle.p2_interface_segregation;
 
 /**
  * 根据接口隔离原则，将接口Interface拆分成几个接口，类A和C分别与他们需要的接口建立依赖关系

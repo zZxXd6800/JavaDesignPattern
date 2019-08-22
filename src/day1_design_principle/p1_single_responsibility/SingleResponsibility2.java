@@ -1,4 +1,4 @@
-package day1_design_principles.p1_single_responsibility;
+package day1_design_principle.p1_single_responsibility;
 
 /**
  * 方式2遵守单一职责原则，但类的改动很大，既分解类又修改客户端，可以直接对方式1中的Vehicle类进行修改

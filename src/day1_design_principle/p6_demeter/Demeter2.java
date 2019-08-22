@@ -1,22 +1,22 @@
-package day1_design_principles.p6_demeter;
+package day1_design_principle.p6_demeter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * CollegeEmployee以局部变量的形式出现在SchoolManager中，违反了迪米特原则，
+ * 将打印学院员工信息的方法封装到CollegeManager中即可
  */
-public class Demeter1 {
+public class Demeter2 {
     public static void main(String[] args) {
-        SchoolManager1 manager = new SchoolManager1();
-        manager.printAllEmployee(new CollegeManager1());
+        SchoolManager2 manager = new SchoolManager2();
+        manager.printAllEmployee(new CollegeManager2());
     }
 }
 
 /**
  * 学校总部员工
  */
-class Employee1 {
+class Employee2 {
     private String id;
 
     public String getId() {
@@ -32,30 +32,26 @@ class Employee1 {
  * 学校员工的管理类
  *
  */
-class SchoolManager1 {
+class SchoolManager2 {
     /**
      * @return 学校所有的员工
      */
-    public List<Employee1> getAllEmployee() {
-        List<Employee1> list = new ArrayList<>();
+    public List<Employee2> getAllEmployee() {
+        List<Employee2> list = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
-            Employee1 employee = new Employee1();
+            Employee2 employee = new Employee2();
             employee.setId("学校总部员工id= " + i);
             list.add(employee);
         }
         return list;
     }
 
-    void printAllEmployee(CollegeManager1 manager) {
-        List<CollegeEmployee1> list1 = manager.getAllEmployee();
-        System.out.println("----------学院员工----------");
-        for (CollegeEmployee1 e : list1) {
-            System.out.println(e.getId());
-        }
+    void printAllEmployee(CollegeManager2 manager) {
+        manager.printEmployee();
 
-        List<Employee1> list2 = this.getAllEmployee();
+        List<Employee2> list = this.getAllEmployee();
         System.out.println("----------学校总部员工----------");
-        for (Employee1 e : list2) {
+        for (Employee2 e : list) {
             System.out.println(e.getId());
         }
     }
@@ -64,7 +60,7 @@ class SchoolManager1 {
 /**
  * 学院员工
  */
-class CollegeEmployee1 {
+class CollegeEmployee2 {
     private String id;
 
     public String getId() {
@@ -79,18 +75,25 @@ class CollegeEmployee1 {
 /**
  * 学院员工的管理类
  */
-class CollegeManager1 {
+class CollegeManager2 {
     /**
      * @return 学院所有的员工
      */
-    public List<CollegeEmployee1> getAllEmployee() {
-        List<CollegeEmployee1> list = new ArrayList<>();
+    public List<CollegeEmployee2> getAllEmployee() {
+        List<CollegeEmployee2> list = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            CollegeEmployee1 employee = new CollegeEmployee1();
+            CollegeEmployee2 employee = new CollegeEmployee2();
             employee.setId("学院员工id= " + i);
             list.add(employee);
         }
         return list;
     }
-}
 
+    public void printEmployee() {
+        List<CollegeEmployee2> list = this.getAllEmployee();
+        System.out.println("----------学院员工----------");
+        for (CollegeEmployee2 e : list) {
+            System.out.println(e.getId());
+        }
+    }
+}

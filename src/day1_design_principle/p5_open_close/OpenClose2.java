@@ -1,4 +1,4 @@
-package day1_design_principles.p5_open_close;
+package day1_design_principle.p5_open_close;
 
 /**
  * 将Shape定义为抽象类，并提供一个抽象的draw方法让子类去实现
