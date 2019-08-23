@@ -2,18 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be65531-5422-4dfd-a908-9333f76918a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day2_singleton/p4_synchronized_method/SynchronizedMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2_singleton/p5_synchronized_block/SynchronizedBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2_singleton/p6_double_check/DoubleCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2_singleton/p7_static_inner_class/StaticInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2_singleton/p8_enumeration/Enumeration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_simple_factory/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_simple_factory/FactoryPatternSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_simple_factory/p0_example/OrderPizza1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_simple_factory/p1_simple_factory/OrderPizza2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_simple_factory/p1_simple_factory/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_simple_factory/pizza/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_simple_factory/pizza/GreekPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_simple_factory/pizza/PepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_simple_factory/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_factory_method/FactoryMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_factory_method/order/BJOrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_factory_method/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_factory_method/order/SHOrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_factory_method/pizza/BJCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_factory_method/pizza/BJPepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_factory_method/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_factory_method/pizza/SHCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_factory_method/pizza/SHPepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_abstract_factory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_abstract_factory/order/AbsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_abstract_factory/order/BJFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_abstract_factory/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_abstract_factory/order/SHFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_abstract_factory/pizza/BJCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_abstract_factory/pizza/BJPepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_abstract_factory/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_abstract_factory/pizza/SHCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_abstract_factory/pizza/SHPepperPizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassDiagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassDiagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day2_singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2_singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day2_singleton/p1_static_constant/StaticConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2_singleton/p1_static_constant/StaticConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day2_singleton/p2_static_block/StaticBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2_singleton/p2_static_block/StaticBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,30 +43,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day2_singleton/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,29 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/Segregation1.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/Segregation2.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion1.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/ByInterface.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/BySetter.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/ByConstructionMethod.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/DependencyInversion2.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p4_liskov_substitution/LiskovSubstitution1.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p4_liskov_substitution/LiskovSubstitution2.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p4_open_close/OpenClose1.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p4_open_close/OpenClose2.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p5_demeter/Demeter1.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p6_demeter/Demeter1.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p6_demeter/Demeter2.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/DesignPrinciples.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p1_single_responsibility/SingleResponsibility1.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p1_single_responsibility/SingleResponsibility2.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p1_single_responsibility/SingleResponsibility3.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation2.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/p2_interface_segregation/InterfaceSegregation1.java" />
-        <option value="$PROJECT_DIR$/src/day1_design_principles/ClassDiagram.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern.java" />
         <option value="$PROJECT_DIR$/src/day2_singleton/p1_static_constant/StaticConstant.java" />
         <option value="$PROJECT_DIR$/src/day2_singleton/p2_static_block/StaticBlock.java" />
         <option value="$PROJECT_DIR$/src/day2_singleton/p5_synchronized_block/SynchronizedBlock.java" />
@@ -98,10 +74,52 @@
         <option value="$PROJECT_DIR$/src/day2_singleton/p4_synchronized_method/SynchronizedMethod.java" />
         <option value="$PROJECT_DIR$/src/day2_singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/Pizza/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/Pizza/GreekPizza.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/Pizza/CheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/pizza/PepperPizza.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/order/Customer.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/order/OrderPizza.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/order/OrderPizza.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/order/Customer.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/order/OrderPizza1.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/order/OrderPizza4.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/order/OrderPizza1.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/order/OrderPizza2.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/order/OrderPizza3.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/Customer.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/Customer.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/OrderPizza1.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/OrderPizza2.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/Customer.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p2_factory_method/FacrotyMethod.java" />
+        <option value="$PROJECT_DIR$/src/day3_factory/p2_factory_method/FactoryMethod.java" />
+        <option value="$PROJECT_DIR$/src/day3_simple_factory/p2_factory_method/FactoryMethod.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/p2_factory_method/FactoryMethod.java" />
+        <option value="$PROJECT_DIR$/src/day3_simple_factory/Customer.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/pizza/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/pizza/BJPepperPizza.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/pizza/BJCheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/pizza/SHCheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/pizza/SHPepperPizza.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/order/OrderPizza.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/order/BJOrderPizza.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/order/SHOrderPizza.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/Customer.java" />
+        <option value="$PROJECT_DIR$/src/day4_factory_method/FactoryMethod.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern.java" />
+        <option value="$PROJECT_DIR$/src/day5_abstract_factory/pizza/BJCheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/day5_abstract_factory/order/AbsFactory.java" />
+        <option value="$PROJECT_DIR$/src/day5_abstract_factory/order/BJFactory.java" />
+        <option value="$PROJECT_DIR$/src/day5_abstract_factory/order/SHFactory.java" />
+        <option value="$PROJECT_DIR$/src/day5_abstract_factory/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/day5_abstract_factory/order/OrderPizza.java" />
+        <option value="$PROJECT_DIR$/src/day3_simple_factory/FactoryPatternSummary.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -137,35 +155,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day1_design_principles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day1_design_principles" type="462c0819:PsiDirectoryNode" />
-              <item name="p1_single_responsibility" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -183,6 +172,24 @@
               <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="day2_singleton" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day3_simple_factory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day4_factory_method" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day5_abstract_factory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -215,6 +222,35 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day1_design_principles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day1_design_principles" type="462c0819:PsiDirectoryNode" />
+              <item name="p1_single_responsibility" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,8 +260,19 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/day5_abstract_factory/pizza" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day4_factory_method.pizza" />
+      <recent name="day3_factory.p1_simple_factory.order" />
+      <recent name="day3_factory.p0_example.order" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day5_abstract_factory\pizza" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,13 +286,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Enumeration">
-    <configuration name="DoubleCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2_singleton.p6_double_check.DoubleCheck" />
+  <component name="RunManager" selected="Application.AbstractFactory">
+    <configuration name="AbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day5_abstract_factory.AbstractFactory" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day2_singleton.p6_double_check.*" />
+          <option name="PATTERN" value="day5_abstract_factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +300,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Enumeration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2_singleton.p8_enumeration.Enumeration" />
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3_factory.p0_example.Customer" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day2_singleton.p8_enumeration.*" />
+          <option name="PATTERN" value="day3_simple_factory.p0_example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3_simple_factory.Customer" />
+      <module name="JavaDesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3_simple_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day4_factory_method.FactoryMethod" />
+      <module name="JavaDesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day4_factory_method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3_simple_factory.p1_simple_factory.SimpleFactory" />
+      <module name="JavaDesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3_simple_factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,39 +365,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2_singleton.p5_synchronized_block.SynchronizedBlock" />
-      <module name="JavaDesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day2_singleton.p5_synchronized_block.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SynchronizedMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2_singleton.p4_synchronized_method.SynchronizedMethod" />
-      <module name="JavaDesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day2_singleton.p4_synchronized_method.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Enumeration" />
-        <item itemvalue="Application.StaticInnerClass" />
-        <item itemvalue="Application.DoubleCheck" />
-        <item itemvalue="Application.SynchronizedBlock" />
-        <item itemvalue="Application.SynchronizedMethod" />
+        <item itemvalue="Application.AbstractFactory" />
+        <item itemvalue="Application.FactoryMethod" />
+        <item itemvalue="Application.Customer (1)" />
+        <item itemvalue="Application.Customer" />
+        <item itemvalue="Application.SimpleFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -330,9 +390,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,8 +399,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4844098" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7416481" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,7 +422,7 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,7 +430,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4844098" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -395,178 +454,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p3_dependency_inversion/transitive_dependency/by_interface.java" />
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/DependencyInversion1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/transitive_dependency/BySetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/DependencyInversion2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/transitive_dependency/ByInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p4_liskov_substitution/LiskovSubstitution1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p4_liskov_substitution/LiskovSubstitution2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principles/p5_open_close.java" />
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p5_open_close/OpenClose2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding>
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p5_open_close/OpenClose1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p6_demeter/Demeter1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p6_demeter/Demeter2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p1_single_responsibility/SingleResponsibility3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p1_single_responsibility/SingleResponsibility2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p1_single_responsibility/SingleResponsibility1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -614,17 +501,300 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/DesignPrinciples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/transitive_dependency/ByConstructionMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p2_static_block/StaticBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p4_synchronized_method/SynchronizedMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p5_synchronized_block/SynchronizedBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p6_double_check/DoubleCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p7_static_inner_class/StaticInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p1_static_constant/StaticConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p8_enumeration/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/pizza/PepperPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/pizza/GreekPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/pizza/CheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_factory/p1_simple_factory/order/OrderPizza4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_factory/p0_example/order/OrderPizza2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_factory/p0_example/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/pizza/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/FactoryMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/pizza/SHPepperPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/pizza/SHCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/pizza/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/pizza/BJPepperPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/pizza/BJCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/pizza/SHPepperPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/pizza/BJPepperPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/pizza/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/pizza/SHCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/pizza/BJCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/p1_simple_factory/SimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/order/BJOrderPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/order/SHOrderPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/order/OrderPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/order/OrderPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/order/SHFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/order/BJFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/order/AbsFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/p3_dependency_inversion/DependencyInversion1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="312" column="22" selection-start-line="312" selection-start-column="22" selection-end-line="312" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/DesignPrinciples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -637,78 +807,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="200">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p6_double_check/DoubleCheck.java">
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="347">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p5_synchronized_block/SynchronizedBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/p1_simple_factory/OrderPizza2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="175">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p1_static_constant/StaticConstant.java">
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/p0_example/OrderPizza1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p2_static_block/StaticBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p4_synchronized_method/SynchronizedMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runtime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p8_enumeration/Enumeration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="290">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day2_singleton/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="350">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p7_static_inner_class/StaticInnerClass.java">
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/FactoryPatternSummary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="175">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2_singleton/p3_thread_unsafe/ThreadUnsafe.java">
+    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/FactoryMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
