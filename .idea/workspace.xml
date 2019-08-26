@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be65531-5422-4dfd-a908-9333f76918a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/p0_example/AbstractHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/p0_example/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/p0_example/CommonHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/p0_example/HighBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/ClassAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/IVoltage5V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/Voltage220V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/VoltageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/p2_object_adapter/ObjectAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/p2_object_adapter/VoltageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/AbsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/IInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/InterfaceAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,29 +28,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day7_builder/Builder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DesignPattern.java">
+        <entry file="file://$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/InterfaceAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="575">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day7_builder/p0_example/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/day8_adapter/Adapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="225">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/AbsAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/IInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -53,9 +73,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Singleton" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Singleton" />
       </list>
     </option>
   </component>
@@ -72,17 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/order/OrderPizza.java" />
-        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/order/Customer.java" />
-        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/order/OrderPizza1.java" />
-        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/order/OrderPizza4.java" />
-        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/order/OrderPizza1.java" />
-        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/order/OrderPizza2.java" />
-        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/order/OrderPizza3.java" />
-        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/Customer.java" />
-        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/Customer.java" />
-        <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/SimpleFactory.java" />
-        <option value="$PROJECT_DIR$/src/day3_factory/p0_example/OrderPizza1.java" />
         <option value="$PROJECT_DIR$/src/day3_factory/p1_simple_factory/OrderPizza2.java" />
         <option value="$PROJECT_DIR$/src/day3_factory/Customer.java" />
         <option value="$PROJECT_DIR$/src/day3_factory/p2_factory_method/FacrotyMethod.java" />
@@ -100,7 +109,6 @@
         <option value="$PROJECT_DIR$/src/day4_factory_method/order/SHOrderPizza.java" />
         <option value="$PROJECT_DIR$/src/day4_factory_method/Customer.java" />
         <option value="$PROJECT_DIR$/src/day4_factory_method/FactoryMethod.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern.java" />
         <option value="$PROJECT_DIR$/src/day5_abstract_factory/pizza/BJCheesePizza.java" />
         <option value="$PROJECT_DIR$/src/day5_abstract_factory/order/AbsFactory.java" />
         <option value="$PROJECT_DIR$/src/day5_abstract_factory/order/BJFactory.java" />
@@ -123,6 +131,18 @@
         <option value="$PROJECT_DIR$/src/day7_builder/p0_example/Client.java" />
         <option value="$PROJECT_DIR$/src/day7_builder/Builder.java" />
         <option value="$PROJECT_DIR$/src/day7_builder/p0_example/example.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/Phone.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/VoltageAdapter.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/Voltage220V.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/IVoltage5V.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/ClassAdapter.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/p2_object_adapter/VoltageAdapter.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/p2_object_adapter/ObjectAdapter.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/IInterface.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/AbsAdapter.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/InterfaceAdapter.java" />
       </list>
     </option>
   </component>
@@ -245,7 +265,20 @@
               <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="day7_builder" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day1_design_principle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day8_adapter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaDesignPattern" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaDesignPattern" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day8_adapter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="p3_interface_adapter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -288,13 +321,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
-    <configuration name="AbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day5_abstract_factory.AbstractFactory" />
+  <component name="RunManager" selected="Application.InterfaceAdapter">
+    <configuration name="ClassAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day8_adapter.p1_class_adapter.ClassAdapter" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day5_abstract_factory.*" />
+          <option name="PATTERN" value="day8_adapter.p1_class_adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,19 +348,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6_prototype.p0_example.Client" />
-      <module name="JavaDesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day6_prototype.p0_example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DeepClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day6_prototype.p2_deep_clone.DeepClone" />
       <module name="JavaDesignPattern" />
@@ -341,12 +361,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6_prototype.p1_prototype.Prototype" />
+    <configuration name="InterfaceAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day8_adapter.p3_interface_adapter.InterfaceAdapter" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6_prototype.p1_prototype.*" />
+          <option name="PATTERN" value="day8_adapter.p3_interface_adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day8_adapter.p2_object_adapter.ObjectAdapter" />
+      <module name="JavaDesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day8_adapter.p2_object_adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,11 +389,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaceAdapter" />
+        <item itemvalue="Application.ObjectAdapter" />
+        <item itemvalue="Application.ClassAdapter" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.DeepClone" />
-        <item itemvalue="Application.Prototype" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.AbstractFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +411,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
@@ -445,71 +478,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day3_factory/p0_example/order/OrderPizza2.java" />
-    <entry file="file://$PROJECT_DIR$/src/day3_factory/p0_example/Customer.java" />
-    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/pizza/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/pizza/SHPepperPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/pizza/SHCheesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/pizza/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/pizza/BJPepperPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day4_factory_method/pizza/BJCheesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/pizza/SHPepperPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/pizza/BJPepperPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/pizza/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day5_abstract_factory/pizza/SHCheesePizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -562,13 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="312" column="22" selection-start-line="312" selection-start-column="22" selection-end-line="312" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassDiagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -676,13 +637,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/DesignPrinciples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -845,6 +799,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_design_principle/DesignPrinciples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassDiagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/ClassAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/VoltageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/Voltage220V.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/IVoltage5V.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p2_object_adapter/VoltageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p2_object_adapter/ObjectAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/day7_builder/Builder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -854,8 +879,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/IInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/AbsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/InterfaceAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
