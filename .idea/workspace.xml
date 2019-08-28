@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be65531-5422-4dfd-a908-9333f76918a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day12_facade/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12_facade/DVDPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12_facade/Facade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12_facade/Popcorn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12_facade/Projector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12_facade/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day13_flyweight/ConcreteWebsite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day13_flyweight/Flyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day13_flyweight/Website.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day13_flyweight/WebsiteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day13_flyweight/WebsiteUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,78 +24,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/day12_facade/Facade.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day13_flyweight/Flyweight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-              <folding>
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="3" column="77" lean-forward="true" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12_facade/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12_facade/DVDPlayer.java">
+        <entry file="file://$PROJECT_DIR$/src/day13_flyweight/WebsiteUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12_facade/Projector.java">
+        <entry file="file://$PROJECT_DIR$/src/day13_flyweight/Website.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12_facade/Screen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-              <folding>
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12_facade/Popcorn.java">
+        <entry file="file://$PROJECT_DIR$/src/day13_flyweight/ConcreteWebsite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day13_flyweight/WebsiteFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding>
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,11 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/Phone.java" />
-        <option value="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/VoltageAdapter.java" />
-        <option value="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/Voltage220V.java" />
-        <option value="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/IVoltage5V.java" />
-        <option value="$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/ClassAdapter.java" />
         <option value="$PROJECT_DIR$/src/day8_adapter/p2_object_adapter/VoltageAdapter.java" />
         <option value="$PROJECT_DIR$/src/day8_adapter/p2_object_adapter/ObjectAdapter.java" />
         <option value="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/IInterface.java" />
@@ -146,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/day9_bridge/Brand/Vivo.java" />
         <option value="$PROJECT_DIR$/src/day9_bridge/Brand/XiaoMi.java" />
         <option value="$PROJECT_DIR$/src/day9_bridge/Phone/Phone.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern.java" />
         <option value="$PROJECT_DIR$/src/day10_decorator/Drink.java" />
         <option value="$PROJECT_DIR$/src/day10_decorator/Coffee.java" />
         <option value="$PROJECT_DIR$/src/day10_decorator/LongBlack.java" />
@@ -176,7 +152,20 @@
         <option value="$PROJECT_DIR$/src/day12_facade/Client.java" />
         <option value="$PROJECT_DIR$/src/day12_facade/Screen.java" />
         <option value="$PROJECT_DIR$/src/day12_facade/Facade.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern.java" />
+        <option value="$PROJECT_DIR$/src/day13_flyweight/WebsiteFactory.java" />
+        <option value="$PROJECT_DIR$/src/day13_flyweight/Website.java" />
+        <option value="$PROJECT_DIR$/src/day13_flyweight/ConcreteWebsite.java" />
+        <option value="$PROJECT_DIR$/src/day13_flyweight/WebsiteUser.java" />
+        <option value="$PROJECT_DIR$/src/day13_flyweight/Flyweight.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -185,11 +174,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-82" />
+    <option name="width" value="1937" />
+    <option name="height" value="1168" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -297,28 +285,20 @@
               <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day2_singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="day3_simple_factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day2_singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="p1_static_constant" type="462c0819:PsiDirectoryNode" />
+              <item name="day3_simple_factory" type="462c0819:PsiDirectoryNode" />
+              <item name="p1_simple_factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day2_singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="p1_static_constant" type="462c0819:PsiDirectoryNode" />
-              <item name="StaticConstant.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day12_facade" type="462c0819:PsiDirectoryNode" />
+              <item name="day13_flyweight" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,8 +313,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/day5_abstract_factory/pizza" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chives_box_api" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -361,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Flyweight">
     <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day9_bridge.Bridge" />
       <module name="JavaDesignPattern" />
@@ -414,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day8_adapter.p3_interface_adapter.InterfaceAdapter" />
+    <configuration name="Flyweight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13_flyweight.Flyweight" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day8_adapter.p3_interface_adapter.*" />
+          <option name="PATTERN" value="day13_flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -429,11 +412,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Flyweight" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Composite" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Bridge" />
-        <item itemvalue="Application.InterfaceAdapter" />
       </list>
     </recent_temporary>
   </component>
@@ -457,7 +440,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.16258352" visible="true" weight="0.16684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.16258352" visible="true" weight="0.16684435" />
       <window_info id="Structure" order="1" sideWeight="0.83741647" side_tool="true" weight="0.16684435" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -525,49 +508,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day7_builder/p0_example/example.java" />
-    <entry file="file://$PROJECT_DIR$/src/day7_builder/p0_example/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/ClassAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/VoltageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/Voltage220V.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day8_adapter/p1_class_adapter/IVoltage5V.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day8_adapter/p2_object_adapter/VoltageAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -912,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day2_singleton/p1_static_constant/StaticConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
@@ -943,7 +876,7 @@
     <entry file="file://$PROJECT_DIR$/src/day12_facade/DVDPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
@@ -973,14 +906,14 @@
     <entry file="file://$PROJECT_DIR$/src/day12_facade/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day12_facade/Facade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        <state relative-caret-position="225">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="e#649#650#0" expanded="true" />
             <element signature="e#673#674#0" expanded="true" />
@@ -990,5 +923,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/p1_simple_factory/SimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_simple_factory/p1_simple_factory/OrderPizza2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day13_flyweight/Flyweight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="77" lean-forward="true" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day13_flyweight/WebsiteUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day13_flyweight/Website.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day13_flyweight/ConcreteWebsite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day13_flyweight/WebsiteFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
