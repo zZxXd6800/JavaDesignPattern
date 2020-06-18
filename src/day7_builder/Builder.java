@@ -5,7 +5,4 @@ package day7_builder;
  * 允许用户只通过指定复杂对象的类型和内容就可以构造他们，而不需要知道内部的具体构造细节
  */
 public class Builder {
-    public static void main(String[] args) {
-
-    }
 }

@@ -47,6 +47,7 @@ class SchoolManager1 {
     }
 
     void printAllEmployee(CollegeManager1 manager) {
+        //局部变量 CollegeEmployee1 不是 SchoolManager1 的直接朋友(成员变量、方法参数、返回值)，违反了迪米特法则
         List<CollegeEmployee1> list1 = manager.getAllEmployee();
         System.out.println("----------学院员工----------");
         for (CollegeEmployee1 e : list1) {

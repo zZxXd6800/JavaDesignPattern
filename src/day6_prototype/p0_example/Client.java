@@ -17,11 +17,11 @@ public class Client {
         Sheep sheep5 = new Sheep(sheep.getName(), sheep.getAge(), sheep.getColor());
         //...
 
-        System.out.println(sheep);
-        System.out.println(sheep2);
-        System.out.println(sheep3);
-        System.out.println(sheep4);
-        System.out.println(sheep5);
+        System.out.println(sheep.hashCode());
+        System.out.println(sheep2.hashCode());
+        System.out.println(sheep3.hashCode());
+        System.out.println(sheep4.hashCode());
+        System.out.println(sheep5.hashCode());
         //...
     }
 }

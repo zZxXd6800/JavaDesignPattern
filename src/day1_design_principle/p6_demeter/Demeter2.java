@@ -36,7 +36,7 @@ class SchoolManager2 {
     /**
      * @return 学校所有的员工
      */
-    public List<Employee2> getAllEmployee() {
+    private List<Employee2> getAllEmployee() {
         List<Employee2> list = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             Employee2 employee = new Employee2();
@@ -46,7 +46,8 @@ class SchoolManager2 {
         return list;
     }
 
-    void printAllEmployee(CollegeManager2 manager) {
+    public void printAllEmployee(CollegeManager2 manager) {
+        // 将输出学院员工的方法封装在 CollegeManager2 里面，对外不暴露细节
         manager.printEmployee();
 
         List<Employee2> list = this.getAllEmployee();
@@ -79,7 +80,7 @@ class CollegeManager2 {
     /**
      * @return 学院所有的员工
      */
-    public List<CollegeEmployee2> getAllEmployee() {
+    private List<CollegeEmployee2> getAllEmployee() {
         List<CollegeEmployee2> list = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             CollegeEmployee2 employee = new CollegeEmployee2();

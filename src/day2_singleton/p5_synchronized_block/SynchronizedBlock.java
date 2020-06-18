@@ -34,4 +34,17 @@ class Singleton {
         }
         return instance;
     }
+
+    /**
+     * 类似于懒汉式2同步方法，线程安全，但每个线程在执行getInstance方法获取实例时都需要同步，效率太低
+     * 用synchronized代码块包装 if(instance == null) 条件
+     */
+    public static Singleton getInstance1() {
+        synchronized (Singleton.class) {
+            if (instance == null) {
+                instance = new Singleton();
+            }
+        }
+        return instance;
+    }
 }

@@ -9,8 +9,7 @@ package day6_prototype.p2_deep_clone;
  */
 public class DeepClone {
     public static void main(String[] args) {
-        Sheep sheep = new Sheep("tom", 1, "white");
-        sheep.setFriend(new Friend("jack"));
+        Sheep sheep = new Sheep("tom", 1, "white", new Friend("jack"));
 
         //方式1 - clone()
         Sheep sheep2 = null;
@@ -28,12 +27,16 @@ public class DeepClone {
         Sheep sheep3 = (Sheep) sheep.deepClone();
         sheep3.setName("john");
 
-        System.out.println(sheep + "sheep 1 friend hashcode = " + sheep.getFriend().hashCode());
-        System.out.println(sheep2 + "sheep 2 friend hashcode = " + sheep2.getFriend().hashCode());
-        System.out.println(sheep3 + "sheep 3 friend hashcode = " + sheep3.getFriend().hashCode());
+        System.out.println("sheep 1 friend hashcode = " + sheep.getFriend().hashCode());
+        System.out.println("sheep 2 friend hashcode = " + sheep2.getFriend().hashCode());
+        System.out.println("sheep 3 friend hashcode = " + sheep3.getFriend().hashCode());
 
         System.out.println("sheep 1 name hashcode: " + sheep.getName().hashCode());
         System.out.println("sheep 2 name hashcode: " + sheep2.getName().hashCode());
         System.out.println("sheep 3 name hashcode: " + sheep3.getName().hashCode());
+
+        System.out.println(sheep + "sheep 1 hashcode: " + sheep.hashCode());
+        System.out.println(sheep2 + "sheep 2 hashcode: " + sheep2.hashCode());
+        System.out.println(sheep3 + "sheep 3 hashcode: " + sheep3.hashCode());
     }
 }

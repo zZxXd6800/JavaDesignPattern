@@ -12,10 +12,11 @@ public class Sheep implements Serializable, Cloneable {
      */
     private Friend friend;
 
-    public Sheep(String name, int age, String color) {
+    public Sheep(String name, int age, String color, Friend friend) {
         this.name = name;
         this.age = age;
         this.color = color;
+        this.friend = friend;
     }
 
     public int getAge() {

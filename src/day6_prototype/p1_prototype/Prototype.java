@@ -16,16 +16,17 @@ public class Prototype {
         try {
             Sheep sheep2 = (Sheep) sheep.clone();
             Sheep sheep3 = (Sheep) sheep.clone();
-            Sheep sheep4 = (Sheep) sheep.clone();
-            Sheep sheep5 = (Sheep) sheep.clone();
             //...
 
-            System.out.println(sheep);
-            System.out.println(sheep2);
-            System.out.println(sheep3);
-            System.out.println(sheep4);
-            System.out.println(sheep5);
+            System.out.println(sheep.hashCode());
+            System.out.println(sheep2.hashCode());
+            System.out.println(sheep3.hashCode());
+            System.out.println(sheep.getName().hashCode());
+            System.out.println(sheep2.getName().hashCode());
+            System.out.println(sheep3.getName().hashCode());
             //...
+
+            System.out.println(sheep.getName() == sheep2.getName());
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
