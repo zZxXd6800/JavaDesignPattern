@@ -20,24 +20,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2be65531-5422-4dfd-a908-9333f76918a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/p1_builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/p1_builder/CommonHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/p1_builder/HighBuilding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/p1_builder/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/p1_builder/HouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7_builder/p1_builder/HouseDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14_proxy/p2_dynamic/ProxyFactory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15_template_method/PeanutSoyMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15_template_method/PureSoyMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15_template_method/RedBeanSoyMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15_template_method/SoyMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15_template_method/TemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16_command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16_command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16_command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16_command/RemoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16_command/light/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16_command/light/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16_command/light/LightReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16_command/tv/TVOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16_command/tv/TVOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16_command/tv/TVReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17_visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17_visitor/ObjectStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17_visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17_visitor/element/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17_visitor/element/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17_visitor/element/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17_visitor/visitor/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17_visitor/visitor/Fail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17_visitor/visitor/Success.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17_visitor/visitor/Wait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18_iterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18_iterator/OutPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18_iterator/aggregate/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18_iterator/aggregate/CommunicationCollege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18_iterator/aggregate/ComputerCollege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18_iterator/aggregate/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18_iterator/iterator/CommunicationCollegeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18_iterator/iterator/ComputerCollegeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19_observer/p0_example/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19_observer/p0_example/CurrentCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19_observer/p0_example/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19_observer/p1_observer/Baidu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19_observer/p1_observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19_observer/p1_observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19_observer/p1_observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19_observer/p1_observer/Sina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19_observer/p1_observer/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day20_mediator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day20_mediator/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day20_mediator/ConcreteColleague1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day20_mediator/ConcreteColleague2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day20_mediator/ConcreteColleague3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day20_mediator/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day20_mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21_memento/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21_memento/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21_memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21_memento/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_interpreter/AddExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_interpreter/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_interpreter/Interpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_interpreter/SubExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_interpreter/SymbolExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_interpreter/VarExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23_state/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23_state/CanRaffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23_state/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23_state/Dispense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23_state/DispenseOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23_state/NoRaffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23_state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_strategy/context/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_strategy/context/ToyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_strategy/context/WildDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_strategy/strategy/Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_strategy/strategy/GoodFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_strategy/strategy/NoFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25_chain_of_responsibility/Approver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25_chain_of_responsibility/ChainOfResponsibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25_chain_of_responsibility/ColleagueApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25_chain_of_responsibility/DepartmentApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25_chain_of_responsibility/MasterApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25_chain_of_responsibility/PurchaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25_chain_of_responsibility/ViceMasterApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9_bridge/Phone/UpRightPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassDiagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassDiagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1_design_principle/p6_demeter/Demeter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1_design_principle/p6_demeter/Demeter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1_design_principle/p6_demeter/Demeter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1_design_principle/p6_demeter/Demeter2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day2_singleton/p5_synchronized_block/SynchronizedBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2_singleton/p5_synchronized_block/SynchronizedBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6_prototype/p0_example/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6_prototype/p0_example/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6_prototype/p1_prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6_prototype/p1_prototype/Prototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6_prototype/p2_deep_clone/DeepClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6_prototype/p2_deep_clone/DeepClone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6_prototype/p2_deep_clone/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6_prototype/p2_deep_clone/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7_builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7_builder/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10_decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10_decorator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11_composite/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11_composite/College.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11_composite/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11_composite/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11_composite/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11_composite/Composite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11_composite/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11_composite/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11_composite/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11_composite/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13_flyweight/ConcreteWebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day13_flyweight/ConcreteWebsite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14_proxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14_proxy/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14_proxy/p1_static/TeacherDaoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14_proxy/p1_static/TeacherDaoProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14_proxy/p2_dynamic/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14_proxy/p2_dynamic/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/AbsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/AbsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/InterfaceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day8_adapter/p3_interface_adapter/InterfaceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day9_bridge/Bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day9_bridge/Bridge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +147,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -87,10 +171,12 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -99,23 +185,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="day14_proxy.p2_dynamic" />
-      <recent name="day12_facade" />
-      <recent name="day6_prototype.p2_deep_clone" />
-      <recent name="day6_prototype.p1_prototype" />
-      <recent name="day4_factory_method.pizza" />
+      <recent name="day23_state" />
+      <recent name="day20_mediator" />
+      <recent name="day16_command" />
+      <recent name="day15_template_method" />
+      <recent name="day9_bridge.Phone" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day5_abstract_factory\pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7_builder.p0_example.Client" />
+  <component name="RunManager" selected="Application.ChainOfResponsibility">
+    <configuration name="ChainOfResponsibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25_chain_of_responsibility.ChainOfResponsibility" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day7_builder.p0_example.*" />
+          <option name="PATTERN" value="day25_chain_of_responsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +210,24 @@
       </method>
     </configuration>
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7_builder.p1_builder.Client" />
+      <option name="MAIN_CLASS_NAME" value="day23_state.Client" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day7_builder.p1_builder.*" />
+          <option name="PATTERN" value="day23_state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day21_memento.Client" />
+      <module name="JavaDesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21_memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +236,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6_prototype.p0_example.Client" />
+      <option name="MAIN_CLASS_NAME" value="day18_iterator.Client" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6_prototype.p0_example.*" />
+          <option name="PATTERN" value="day18_iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeepClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6_prototype.p2_deep_clone.DeepClone" />
+    <configuration name="Interpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day22_interpreter.Interpreter" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6_prototype.p2_deep_clone.*" />
+          <option name="PATTERN" value="day22_interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6_prototype.p1_prototype.Prototype" />
+    <configuration name="Strategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_strategy.Strategy" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6_prototype.p1_prototype.*" />
+          <option name="PATTERN" value="day24_strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,16 +276,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChainOfResponsibility" />
+        <item itemvalue="Application.Strategy" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.DeepClone" />
-        <item itemvalue="Application.Prototype" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Interpreter" />
+        <item itemvalue="Application.Client (4)" />
       </list>
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,VISIBILITY_SORTER,SHOW_INTERFACES,SHOW_PROPERTIES,SHOW_ANONYMOUS,SHOW_LAMBDA" />
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,VISIBILITY_SORTER,SHOW_ANONYMOUS,SHOW_LAMBDA" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -198,7 +297,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566185138288</updated>
-      <workItem from="1592311920494" duration="22777000" />
+      <workItem from="1592311920494" duration="22972000" />
+      <workItem from="1592447983312" duration="3000" />
+      <workItem from="1592464020207" duration="59940000" />
     </task>
     <servers />
   </component>
@@ -215,48 +316,65 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1592404835781">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1592748831086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592404835781" />
-    <state width="1877" height="393" key="GridCell.Tab.0.bottom" timestamp="1592404880389">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592748831086" />
+    <state x="648" y="133" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592548782976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592404880389" />
-    <state width="1877" height="393" key="GridCell.Tab.0.center" timestamp="1592404880389">
+    <state x="648" y="133" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592548782976" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592662678157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592404880389" />
-    <state width="1877" height="393" key="GridCell.Tab.0.left" timestamp="1592404880389">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592662678157" />
+    <state width="1877" height="856" key="GridCell.Tab.0.bottom" timestamp="1592731461087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592404880389" />
-    <state width="1877" height="393" key="GridCell.Tab.0.right" timestamp="1592404880389">
+    <state width="1877" height="856" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592731461087" />
+    <state width="1877" height="856" key="GridCell.Tab.0.center" timestamp="1592731461087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592404880389" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1592384357184">
+    <state width="1877" height="856" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592731461087" />
+    <state width="1877" height="856" key="GridCell.Tab.0.left" timestamp="1592731461087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592384357184" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1592384357184">
+    <state width="1877" height="856" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592731461087" />
+    <state width="1877" height="856" key="GridCell.Tab.0.right" timestamp="1592731461087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592384357184" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1592384357184">
+    <state width="1877" height="856" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592731461087" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1592727587047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592384357184" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1592384357184">
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592727587047" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1592727587047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592384357184" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592727587047" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1592727587047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592727587047" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1592727587047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592727587047" />
     <state x="554" y="225" width="998" height="708" key="SettingsEditor" timestamp="1592312566378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="554" y="225" width="998" height="708" key="SettingsEditor/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592312566378" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592470134310">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592470134310" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592726477747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592726477747" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

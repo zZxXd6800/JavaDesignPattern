@@ -15,6 +15,7 @@ public class InterfaceAdapter {
                 System.out.println("override method 1...");
             }
         };
+
         adapter.method1();
         adapter.method2();
         adapter.method3();

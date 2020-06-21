@@ -1,5 +1,8 @@
 package day11_composite;
 
+/**
+ * 抽象父类 (Component)
+ */
 public abstract class Component {
     private String name;
     private String des;

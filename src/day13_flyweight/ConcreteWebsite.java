@@ -12,6 +12,6 @@ public class ConcreteWebsite extends Website {
 
     @Override
     public void use(WebsiteUser user) {
-        System.out.println("Website type: " + type + "User: " + user.getName());
+        System.out.println("Website type: " + type + ", User: " + user.getName());
     }
 }

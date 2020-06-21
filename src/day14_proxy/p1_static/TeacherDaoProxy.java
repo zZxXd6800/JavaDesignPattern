@@ -1,7 +1,7 @@
 package day14_proxy.p1_static;
 
 /**
- * 静态代理对象
+ * 静态代理对象，聚合了一个目标对象
  */
 public class TeacherDaoProxy implements ITeacherDao {
     private ITeacherDao target;

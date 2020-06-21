@@ -3,6 +3,9 @@ package day11_composite;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 学院 (非叶节点Composite)
+ */
 public class College extends Component {
 
     private List<Component> departments = new ArrayList<>();
@@ -26,7 +29,7 @@ public class College extends Component {
      */
     @Override
     protected void print() {
-        System.out.println("----------" + getName() + "----------");
+        System.out.println("\t|---" + getName());
         //遍历colleges
         for (Component department : departments) {
             department.print();

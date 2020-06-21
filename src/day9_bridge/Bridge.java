@@ -1,8 +1,10 @@
 package day9_bridge;
 
+import day9_bridge.Brand.Vivo;
 import day9_bridge.Brand.XiaoMi;
 import day9_bridge.Phone.FoldedPhone;
 import day9_bridge.Phone.Phone;
+import day9_bridge.Phone.UpRightPhone;
 
 /**
  * 桥接模式：将实现和抽象放在两个不同的层次中，使两个层次可以独立改变
@@ -21,5 +23,10 @@ public class Bridge {
         phone.open();
         phone.call();
         phone.close();
+
+        Phone phone1 = new UpRightPhone(new Vivo());
+        phone1.open();
+        phone1.call();
+        phone1.close();
     }
 }
