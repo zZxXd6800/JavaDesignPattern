@@ -15,11 +15,14 @@ public class Client {
         caretaker.add("s1", originator.saveState());
         originator.setState("state 2");
         caretaker.add("s2", originator.saveState());
-
         System.out.println("current state: " + originator.getState());
 
         System.out.println("return to state 0");
         originator.getStateFromMemento(caretaker.get("s0"));
+        System.out.println("current state: " + originator.getState());
+
+        System.out.println("return to state 1");
+        originator.getStateFromMemento(caretaker.get("s1"));
         System.out.println("current state: " + originator.getState());
     }
 }
