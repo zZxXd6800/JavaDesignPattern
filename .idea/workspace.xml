@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2be65531-5422-4dfd-a908-9333f76918a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day06_prototype/p2_deep_clone/Sheep.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/asm-5.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/asm-all-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/asm-commons-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/asm-tree-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cglib-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14_proxy/p3_cglib/CglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14_proxy/p3_cglib/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14_proxy/p3_cglib/TeacherDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06_prototype/p2_deep_clone/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06_prototype/p2_deep_clone/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDesignPattern.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,29 +82,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/day22_interpreter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/asm-all-3.3.1.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day14_proxy\p1_static" />
-      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day06_prototype" />
-      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day04_factory_method" />
-      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day03_simple_factory" />
-      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day02_singleton" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="day23_state" />
-      <recent name="day20_mediator" />
-      <recent name="day16_command" />
-      <recent name="day15_template_method" />
-      <recent name="day9_bridge.Phone" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day22_interpreter" />
       <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day21_memento" />
@@ -105,8 +98,22 @@
       <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day18_iterator" />
       <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day20_mediator" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day14_proxy.p3_cglib" />
+      <recent name="day23_state" />
+      <recent name="day20_mediator" />
+      <recent name="day16_command" />
+      <recent name="day15_template_method" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\lib" />
+      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day14_proxy\p1_static" />
+      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day06_prototype" />
+      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day04_factory_method" />
+      <recent name="C:\Users\admin\Desktop\JavaDesignPattern\src\day03_simple_factory" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day21_memento.Client" />
       <module name="JavaDesignPattern" />
@@ -133,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10_decorator.Client" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14_proxy.p3_cglib.Client" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10_decorator.*" />
+          <option name="PATTERN" value="day14_proxy.p3_cglib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.TemplateMethod" />
         <item itemvalue="Application.Flyweight" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +209,15 @@
       <workItem from="1593225869669" duration="40360000" />
       <workItem from="1593608761946" duration="407000" />
       <workItem from="1594117520771" duration="1351000" />
-      <workItem from="1594272598778" duration="1697000" />
+      <workItem from="1594272598778" duration="3652000" />
+      <workItem from="1594355036043" duration="92000" />
+      <workItem from="1594355177064" duration="395000" />
+      <workItem from="1594356102923" duration="52000" />
+      <workItem from="1594356305711" duration="493000" />
+      <workItem from="1594619115697" duration="279000" />
+      <workItem from="1594619413000" duration="21000" />
+      <workItem from="1594619460332" duration="1936000" />
+      <workItem from="1594866158301" duration="314000" />
     </task>
     <servers />
   </component>
@@ -237,26 +252,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592662678157" />
-    <state width="1877" height="450" key="GridCell.Tab.0.bottom" timestamp="1593422106579">
-      <screen x="-1920" y="-158" width="1920" height="1080" />
+    <state x="727" y="319" key="FileChooserDialogImpl" timestamp="1594866470301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="319" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866470301" />
+    <state width="1877" height="430" key="GridCell.Tab.0.bottom" timestamp="1594866391257">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="450" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-158.1920.1080@-1920.-158.1920.1080" timestamp="1593422106579" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592749806803" />
-    <state width="1877" height="450" key="GridCell.Tab.0.center" timestamp="1593422106579">
-      <screen x="-1920" y="-158" width="1920" height="1080" />
+    <state width="1877" height="430" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866391257" />
+    <state width="1877" height="430" key="GridCell.Tab.0.center" timestamp="1594866391256">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="450" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-158.1920.1080@-1920.-158.1920.1080" timestamp="1593422106579" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592749806803" />
-    <state width="1877" height="450" key="GridCell.Tab.0.left" timestamp="1593422106579">
-      <screen x="-1920" y="-158" width="1920" height="1080" />
+    <state width="1877" height="430" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866391256" />
+    <state width="1877" height="430" key="GridCell.Tab.0.left" timestamp="1594866391256">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="450" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-158.1920.1080@-1920.-158.1920.1080" timestamp="1593422106579" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592749806803" />
-    <state width="1877" height="450" key="GridCell.Tab.0.right" timestamp="1593422106579">
-      <screen x="-1920" y="-158" width="1920" height="1080" />
+    <state width="1877" height="430" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866391256" />
+    <state width="1877" height="430" key="GridCell.Tab.0.right" timestamp="1594866391257">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="450" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-158.1920.1080@-1920.-158.1920.1080" timestamp="1593422106579" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592749806803" />
+    <state width="1877" height="430" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866391257" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1592749806803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -273,10 +292,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592749806803" />
-    <state x="554" y="225" width="998" height="708" key="SettingsEditor" timestamp="1592312566378">
+    <state x="554" y="225" width="998" height="708" key="SettingsEditor" timestamp="1594866471958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="225" width="998" height="708" key="SettingsEditor/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592312566378" />
+    <state x="554" y="225" width="998" height="708" key="SettingsEditor/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866471958" />
     <state x="-1828" y="-62" width="1736" height="889" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593336084388">
       <screen x="-1920" y="-158" width="1920" height="1080" />
     </state>
@@ -291,76 +310,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
