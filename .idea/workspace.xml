@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be65531-5422-4dfd-a908-9333f76918a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/asm-5.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/asm-all-3.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/asm-commons-7.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/asm-tree-7.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cglib-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14_proxy/p3_cglib/CglibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14_proxy/p3_cglib/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14_proxy/p3_cglib/TeacherDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDesignPattern.iml" afterDir="false" />
-    </list>
+    <list default="true" id="2be65531-5422-4dfd-a908-9333f76918a2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +206,7 @@
       <workItem from="1594619115697" duration="279000" />
       <workItem from="1594619413000" duration="21000" />
       <workItem from="1594619460332" duration="1936000" />
-      <workItem from="1594866158301" duration="314000" />
+      <workItem from="1594866158301" duration="452000" />
     </task>
     <servers />
   </component>
@@ -256,26 +245,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="727" y="319" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866470301" />
-    <state width="1877" height="430" key="GridCell.Tab.0.bottom" timestamp="1594866391257">
+    <state width="1877" height="430" key="GridCell.Tab.0.bottom" timestamp="1594866609731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="450" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-158.1920.1080@-1920.-158.1920.1080" timestamp="1593422106579" />
-    <state width="1877" height="430" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866391257" />
-    <state width="1877" height="430" key="GridCell.Tab.0.center" timestamp="1594866391256">
+    <state width="1877" height="430" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866609731" />
+    <state width="1877" height="430" key="GridCell.Tab.0.center" timestamp="1594866609731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="450" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-158.1920.1080@-1920.-158.1920.1080" timestamp="1593422106579" />
-    <state width="1877" height="430" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866391256" />
-    <state width="1877" height="430" key="GridCell.Tab.0.left" timestamp="1594866391256">
+    <state width="1877" height="430" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866609731" />
+    <state width="1877" height="430" key="GridCell.Tab.0.left" timestamp="1594866609731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="450" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-158.1920.1080@-1920.-158.1920.1080" timestamp="1593422106579" />
-    <state width="1877" height="430" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866391256" />
-    <state width="1877" height="430" key="GridCell.Tab.0.right" timestamp="1594866391257">
+    <state width="1877" height="430" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866609731" />
+    <state width="1877" height="430" key="GridCell.Tab.0.right" timestamp="1594866609731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="450" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-158.1920.1080@-1920.-158.1920.1080" timestamp="1593422106579" />
-    <state width="1877" height="430" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866391257" />
+    <state width="1877" height="430" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866609731" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1592749806803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,11 +290,11 @@
     </state>
     <state x="-1828" y="-62" width="1736" height="889" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.-158.1920.1080@-1920.-158.1920.1080" timestamp="1593336084387" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1592470134310" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594274783285">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594866539534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1297" y="76" width="672" height="705" key="search.everywhere.popup/0.0.1920.1040/-1920.-158.1920.1080@-1920.-158.1920.1080" timestamp="1593433773129" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594274783285" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-158.1920.1080@0.0.1920.1040" timestamp="1594866539534" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
